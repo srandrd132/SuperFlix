@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background-color: black;
+}
+
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.superflix {
+	height: 70px;
+	padding-top: 10px;
+	padding-right: 30px;
+	margin: 0;
+}
+
+.nav-nav {
+	font-size: 20px;
+	color: white;
+	padding-right: 25px;
+}
+
+.barra-lateral{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	margin-left: 160px;
+}
+
+.barra-lateral img {
+	width: 50px;
+	margin-right: 20px;
+}
+
+a, p {
+	color: white;
+	margin-right: 5px;
+}
+
+
+.descricao{
+	position: relative;
+	bottom: 450px;
+	width: 590px;
+	margin-left: 40px;
+	font-family: open sans;
+	font-size: 20px;
+}
+
+.botoes {
+	position: relative;
+	bottom: 420px;
+	margin-left: 40px;
+}
+
+.botao-preto{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .2s ease all;
+	border-radius: 50px;
+}
+
+.botao-preto:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao-preto i{
+    margin-right: 8px;
+}
+
+.botao-branco{
+    background-color: white;
+    border: none;
+    color: black;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .2s ease all;
+	 border-radius: 50px;
+}
+
+.botao-branco:hover{
+    background-color:black;
+    color:white;
+}
+
+.botao-branco i{
+    margin-right: 8px;
+}
+
+main img {
+	width: 100%;
+	position: relative;
+	z-index: -1;
+	opacity: 50%;
+}
+
+.filmes {
+	position: relative;
+	bottom: 340px;
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+}
+
+.filme-capa {
+	position: relative;
+	opacity: 100%;
+	margin: 20px;
+	height: 350px;
+}
+
+.populares {
+	position: relative;
+	font-size: 30px;
+	border: 0;
+	color: white;
+	bottom: 350px;
+	left: 20px;
+	margin: 1px;
+}
